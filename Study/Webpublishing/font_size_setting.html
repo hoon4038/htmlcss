@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title</title>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Original+Surfer&family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
+	<style>
+		/*Times New Roman은 띄어쓰기때문에 따움표 필요 / Times는 따움표 없어도 됨
+		Times New Roman (없다면 -> Times -> serif 순으로 사용하려한다)*/
+		h1 {
+			font-family: "Times New Roman", Times, serif;
+		}
+		/*폰트 사이즈가 %라면 부모에 대한 %이다!
+		1ea = 100%*/
+		body {
+			font-size: 24px;
+		}
+		.div1 {
+			font-size: 1em%;
+			font-family: 'Roboto Mono', monospace;
+		}
+		.div2 {
+			font-size: 200%;
+			font-family: 'Original Surfer', cursive;
+		}
+		.div3 {
+			font-size: 200%
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Font setting</h1>
+	<div class="div1">
+		div1
+		<div class="div2">
+			div2
+			<div class="div3">
+				div3
+			</div>
+		</div>
+	</div>
+</body>
+</html>
