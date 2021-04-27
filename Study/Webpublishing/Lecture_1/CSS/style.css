@@ -10,3 +10,8 @@
 #best-text {
 	color: orange;
 }
+
+@font-face {
+	src: url("../fonts/BMJUA_ttf.ttf");
+	font-family: "JUA";
+}
