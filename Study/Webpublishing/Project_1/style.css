@@ -1,3 +1,59 @@
+.Travel {
+	text-align: center;
+	font-size: 58px;
+	line-height: 218px;
+}
+
+.img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .city {
 	text-align: center;
+}
+
+.index {
+	text-decoration: none;
+	color: red;
+	font-size: 16px;
+	font-family: "Helvetica";
+	color: rgb(88, 89, 91);
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.Seoul {
+	text-decoration: none;
+	color: red;
+	font-size: 16px;
+	font-family: "Helvetica";
+	color: rgb(88, 89, 91);
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.Paris {
+	text-decoration: none;
+	color: red;
+	font-size: 16px;
+	font-family: "Helvetica";
+	color: #58595B;
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.Newyork {
+	text-decoration: none;
+	color: red;
+	font-size: 16px;
+	font-family: "Helvetica";
+	color: rgb(88, 89, 91);
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
