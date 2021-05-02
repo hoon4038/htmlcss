@@ -1,0 +1,9 @@
+/*다운 받은 폰트를 사용핧때는 font-face로 font-family를 만들어준다*/
+@font-face {
+	src: url("../font/BMJUA_ttf.ttf");
+	font-family: "jua";
+}
+
+* {
+	font-family: "jua"
+}
