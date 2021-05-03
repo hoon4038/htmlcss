@@ -5,5 +5,77 @@
 }
 
 * {
-	font-family: "jua"
+	font-family: "jua";
+	background-color: #F0E8D9;
+	color: #58595B;
+}
+
+.title {
+	text-align: center;
+	font-size: 64px;
+	margin-top: 75px;
+	margin-bottom: 30px;
+}
+
+#subtitle {
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 75px;
+}
+
+.menu {
+	padding-top: 20px;
+	margin: 0px;
+	width: 100%;
+	background-color: white;
+}
+
+.description {
+	width: 300px;
+	background-color: white;
+	text-align: left;
+}
+
+.burger {
+	width: 300px;
+	height: 340px;
+	background-color: white;
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	border-radius: 10px;
+
+}
+
+.chicken {
+	width: 300px;
+	height: 340px;
+	background-color: white;
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+.noodle {
+	width: 300px;
+	height: 340px;
+	background-color: white;
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+a {
+	color: blue;
+	margin-bottom: 20px;
+	background: white;
+	text-decoration: none;
 }
